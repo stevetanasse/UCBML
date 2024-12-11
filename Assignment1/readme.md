@@ -4,7 +4,7 @@ The accompanying jupyter notebook analyzes the [In-Vehicle Coupon Recommendation
 One of the five coupons available in the dataset is for higher priced restaurants ($20-50 per person). These coupons have the second lowest acceptance rate at 44.6%. 
 
 # Question
-Are there purchace history characteristics of upscale restaurant coupon rejectors that can be leveraged to improve the coupon acceptance rate?
+Can behaviors be identified in customer purchase history that can be leveraged to improve the upscale restaurant coupon acceptance rate? For example, if coupon rejectors frequented coffee houses frequently, a targeted campaign could increase adoption.
 
 # Procedure
 This investigation involves looking at the customer engagement history for different establishments (e.g. bar, coffee house, restaurant and take-out) for customers issued upscale restaurant coupons. The goal is to determine if there is a pattern in the customer's purchasing behavior that distinguishes upscale restaurant coupon rejectors from acceptors. 
@@ -28,6 +28,9 @@ The 'age' column was originally of dtype object and converted to numeric to faci
 * **Covert category order for the 'income' column**   
 The values of the 'income' column were re-ordered to be ordinal to facilitate data analysis
 
+* **Duplicates**
+Duplicates were detected in the dataset however, they were limited in number and were not removed. Since the rows have not unique identifiers like timestamps or user ids, it's possible that duplicate rows represent distinct events. 
+
 # Analysis
 The heatmap for upscale restaurant coupon acceptors shows the mean probability distributions for purchase history categories (Bar, CoffeeHouse, CarryAway, RestaurantLessThan20, Restaurant20To50). For example, among coupon acceptors, 24.4% reported visiting a coffee house less than once per month. Notable observations include higher probabilities for never visiting bars (41%), dining at cheaper restaurants 1-3 times per month (41.5%), and visiting upscale restaurants less than once per month (46.7%).
 
@@ -40,6 +43,4 @@ The difference heatmap, calculated by subtracting acceptor probabilities from re
 This difference heatmap suggests that rejectors tend to engage less frequently with food establishments, as indicated by higher probabilities for "never" or less frequent engagements with such venues.
 
 # Conclusion
-The analysis concludes that rejectors simply have less interactions with food establishments compared to acceptors. The purchase history differences between upscale restaurant coupon acceptors and rejectors are not particularly pronounced, offering little actionable insight to improve coupon acceptance rates.
-
-For example, if rejectors frequented coffee houses more often, a targeted campaign could increase adoption. However, the findings suggest limited influence of past engagement on coupon acceptance. Future analyses should explore other dataset features, such as customer demographics, for opportunities. While this investigation did not identify ways to improve engagement, comparing probability distributions of different customer behavior sets is a viable technique for uncovering insights.
+There aren't any customer behaviors of coupon rejectors that can be leveraged to improve the acceptance rate. The analysis concludes that rejectors simply have less interactions with food establishments compared to acceptors. Future analyses should explore other dataset features, such as customer demographics, for opportunities. While this investigation did not identify ways to improve coupon acceptance rates, comparing probability distributions of different customer behavior sets is a viable technique for uncovering insights.
