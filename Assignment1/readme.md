@@ -4,7 +4,7 @@ The accompanying jupyter notebook analyzes the [In-Vehicle Coupon Recommendation
 One of the five coupons available in the dataset is for higher priced restaurants ($20-50 per person). These coupons have the second lowest acceptance rate at 44.6%. 
 
 # Question
-Are there purchace history characteristics of update restaurant coupon rejectors that can be leveraged that could be used to improve the coupon acceptance rate?
+Are there purchace history characteristics of upscale restaurant coupon rejectors that can be leveraged to improve the coupon acceptance rate?
 
 # Procedure
 This investigation involves looking at the customer engagement history for different establishments (e.g. bar, coffee house, restaurant and take-out) for customers issued upscale restaurant coupons. The goal is to determine if there is a pattern in the customer's purchasing behavior that distinguishes upscale restaurant coupon rejectors from acceptors. 
