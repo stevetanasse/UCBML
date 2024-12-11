@@ -4,7 +4,7 @@ The accompanying jupyter notebook analyzes the [In-Vehicle Coupon Recommendation
 One of the five coupons available in the dataset is for higher priced restaurants ($20-50 per person). These coupons have the second lowest acceptance rate at 44.6%. 
 
 # Question
-What purchase history characteristics have the biggest differences between the higher priced restaurant coupon rejectors and acceptors which might provide guidance on how to improve the acceptance rate for these upscale restaurant coupons?
+Are there purchace history characteristics of update restaurant coupon rejectors that can be leveraged that could be used to improve the coupon acceptance rate?
 
 # Procedure
 This investigation involves looking at the customer engagement history for different establishments (e.g. bar, coffee house, restaurant and take-out) for customers issued upscale restaurant coupons. The goal is to determine if there is a pattern in the customer's purchasing behavior that distinguishes upscale restaurant coupon rejectors from acceptors. 
@@ -34,10 +34,9 @@ The heatmap for upscale restaurant coupon acceptors shows the mean probability d
 Similarly, the heatmap for coupon rejectors highlights comparable patterns. For instance, rejectors are also likely to report never going to bars (42.5%) and visiting upscale restaurants less than once per month (52.7%).
 
 The difference heatmap, calculated by subtracting acceptor probabilities from rejector probabilities, reveals the following key disparities:
-
-Rejectors are 9.3% more likely to never visit upscale restaurants.
-Rejectors are 8.7% less likely to visit upscale restaurants 1-3 times per month.
-Rejectors are 10.9% less likely to visit coffee houses 1-3 times per month.
+* Rejectors are 9.3% more likely to never visit upscale restaurants.
+* Rejectors are 8.7% less likely to visit upscale restaurants 1-3 times per month.
+* Rejectors are 10.9% less likely to visit coffee houses 1-3 times per month.
 This difference heatmap suggests that rejectors tend to engage less frequently with food establishments, as indicated by higher probabilities for "never" or less frequent engagements with such venues.
 
 # Conclusion
