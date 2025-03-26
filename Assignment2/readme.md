@@ -1,7 +1,7 @@
 # Objective
 Determine the primary characteristics that impact the price of a used car. This information will be used by an used car dealership to fine-tune their inventory.
 
-UsedCars.ipynb
+[UsedCars.ipynb](https://github.com/stevetanasse/UCBML/blob/main/Assignment2/used_cars.ipynb)
 
 To focus the use case for the model, the following assumptions are made about the assignment:
 
