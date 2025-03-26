@@ -1,4 +1,5 @@
-[Assignment3]
+# ReadMe
+[Assignment3](https://github.com/stevetanasse/UCBML/blob/main/Assignment3/Assignment3.ipynb)
 
 ## Objective
 A term deposit an investment where money is deposited for a fixed period at a financial institution. The deposited money earns a set interest rate however, the funds cannot be accessed until the end of the term. The objective of analyzing the bank marketing is to determine the primary characteristics driving term deposit purchases and predicting when a customer will subscribe to a term deposit.
