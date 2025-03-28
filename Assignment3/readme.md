@@ -17,15 +17,17 @@ The choice between the SVC and Logistic Regression depends on the acceptable cos
 
 Although the Decision Tree achieved the highest F1 score, its susceptibility to overfitting raises concerns about its ability to generalize to unseen data. As such, Logistic Regression and the SVC remain the more reliable options for deployment.
 
+Improvements in result scores might be possible with a more sophisticated machine learning model like a neural network. Additionally, assistance with someone with more bank marketing domain knowledge may suggest more meaningful features to add to the dataset for future marketing campaigns to improve recall and precision scores.
+
 **Model Performance Summary**
 
 | Model                      | Precision | Recall | F1       |
 | ---------------------------|----------:|-------:|---------:|
 | Baseline                   | 0.14      |   0.16 |   0.15   |
-| Decision Tree              | 0.14      |   0.16 |   0.15   |
-| Logistic Regression        | 0.14      |   0.16 |   0.15   |
-| k-Nearest Neighbors        | 0.14      |   0.16 |   0.15   |
-| Support Vector Classifier  | 0.14      |   0.16 |   0.15   |
+| Decision Tree              | 0.45      |   0.52 |   0.48   |
+| Logistic Regression        | 0.23      |   0.71 |   0.35   |
+| k-Nearest Neighbors        | 0.41      |   0.26 |   0.32   |
+| Support Vector Classifier  | 0.16      |   0.81 |   0.27   |
 
 </br>
 
