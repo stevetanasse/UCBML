@@ -14,7 +14,7 @@ Identifying IOT network connection activity (security cameras, thermostats, etc.
 **Machine Learning Concepts**
 Decision Tree, Logistic Regression, Random Forest, XGBoost, Neural Network and ensemble techniques will be compared to find the highest performing model.
 
-**Conclusion**
+**Conclusion**  
 The OneVsRest, Random Forest, XGBoost classifiers all tied for the highest accuracy (0.855) and the OneVsRest (Baseline) achieved the highset precision (0.869). Both OneVsRest classifiers tied for the highest recall (0.847). The highest f1 scores were achieved by the Random Forest and XGBoost classifiers (0.839). This performance contrasts with the validation set results, where the Random Forest classifier performed best overall, with an accuracy of 0.845, precision of 0.838, recall of 0.825, and F1 score of 0.828. Interestingly, the test set metrics were slightly higher than those from the validation set—an unexpected outcome that suggests either random variation or possible differences in sample composition.
 
 Several models produced identical accuracy values on the test set. To ensure these results were valid, confusion matrices were examined, and the number of correct predictions was tallied. Even though some models had the same number of correct predictions (325), the distribution of those predictions varied across classes, indicating differing classification behavior despite identical accuracy.
